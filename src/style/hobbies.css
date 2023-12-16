@@ -1,0 +1,33 @@
+.contenedorGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.contenedorGrid div{
+    width: 100px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    color: crimson;
+}
+
+.contenedorGrid div p{
+    color: crimson;
+} 
+
+.contenedorGrid div:hover p{
+    color: white;
+}
+
+.contenedorGrid div:hover{
+    background-color: crimson;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}

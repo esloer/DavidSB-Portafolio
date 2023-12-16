@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(../public/assets/img/fondo.jpg);
+}
+
+body h2{
+  font-family: 'Lobster', sans-serif;
 }
 
 code {

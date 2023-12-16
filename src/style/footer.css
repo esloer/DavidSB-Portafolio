@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    56deg,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(220, 20, 60, 0.7906512946975666) 100%
+  );
+  border-top: solid 3px crimson;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
+footer p {
+  color: white;
+}
+
+footer p span {
+  color: crimson;
+}
+
+.canal svg {
+  margin: 5px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.fa-youtube {
+  color: rgb(196, 48, 43);
+}
+
+.fa-twitch {
+  color: rgb(100, 65, 165);
+}

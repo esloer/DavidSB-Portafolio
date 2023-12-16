@@ -1,0 +1,65 @@
+.card {
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    border: 2px solid crimson;
+    border-radius: 20px ;
+    color: white;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 15px 5px #0c489c; 
+    box-shadow: 5px 5px 15px 5px #ffffff;
+}
+
+.card img {   
+    width: 100%;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+}
+
+.card:first-child{
+    background-image: url(../../public/assets/img/instagram.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+
+.card:nth-child(2) {
+    background-image: url(../../public/assets/img/alquilar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(3) {
+    background-image: url(../../public/assets/img/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card:last-child{
+    background-image: url(../../public/assets/img/tour.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.card .ocultar{
+    display: none;
+}
+
+.card .tecnologias{
+    width: 100%;
+    height: 130px;
+    margin-top: 170px;
+    background-color: rgba(0, 0, 0, 0.482);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card .tecnologias svg{
+    font-size:x-large ;
+    margin: 0 5px;
+}
+

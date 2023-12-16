@@ -1,0 +1,75 @@
+.solicitud {
+    margin-top: 75px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .solicitud input {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(9, 15, 21);
+    position: relative;
+  }
+  .solicitud textarea {
+    margin-bottom: 10px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(9, 15, 21);
+  }
+  .solicitud .fa-user {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 10px;
+  }
+  .solicitud .fa-phone {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 49px;
+    margin-left: 10px;
+  }
+  .solicitud .fa-at {
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 85px;
+  }
+  .solicitud .fa-envelope {
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 260px;
+  }
+  .solicitud button {
+    position: relative;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    font-size: 20px;
+  }
+  .solicitud button:hover {
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+  }
+  .solicitud .fa-paper-plane {
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 12px;
+    color: white;
+  }
+  
+  .solicitud button:hover .fa-paper-plane {
+    color: white;
+  }

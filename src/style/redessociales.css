@@ -1,0 +1,52 @@
+.redes {
+    margin-left: 150px;
+    width: 456px;
+    margin-top: -10px;
+  }
+  .redes p {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .redes span,
+  .directo span,
+  .porta span {
+    color: crimson;
+    font-size: 25px;
+  }
+  .redes div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 15px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .redes .facebook:hover {
+    background-color: rgb(59, 89, 152);
+    border: 2px solid white;
+  }
+  .redes .instagram:hover {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    border: 2px solid white;
+  }
+  .redes .tuiter:hover {
+    background-color: rgb(00, 172, 238);
+    border: 2px solid white;
+  }
+  .redes svg {
+    color: white;
+    font-size: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+  }

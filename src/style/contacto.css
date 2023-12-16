@@ -1,0 +1,42 @@
+.contacto{
+    margin-top: 100px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1vh;
+    margin-bottom: 15vh;
+    background: linear-gradient(
+        56deg,
+        rgba(0, 0, 0, 1) 65%,
+        rgba(220, 20, 60, 0.7906512946975666) 100%
+      );
+    box-shadow: 5px 5px 15px 5px #ffffff; 
+    box-shadow: 5px 5px 15px 5px #0c489c;
+}
+
+.contacto h2{
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.contacto h2 span{
+    color: crimson;
+}
+
+.contacto p {
+    color: white;
+}
+
+.contacto p span{
+    color: crimson;
+}
+
+.datosRedes{
+    margin-right: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,129 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+
+.new .todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.new .titulo {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: solid;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: crimson;
+}
+
+.new .titulo img {
+  height: 70px;
+}
+.new .titulo img:last-child{
+    margin-left: auto;
+    margin-right: auto;
+}
+.new .cuerpo {
+  background-color: black;
+  color: white;
+  /* height: 1300px; */
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 3px solid crimson;
+ 
+}
+
+.new .cuerpo h1 span{
+    color: crimson;
+}
+.new .back {
+ background-image: url(../../public/assets/img/fondoN.jpg);
+ background-position: center;
+ background-size: 100% 100%;
+ width: 100%;
+ border-top: solid crimson;
+ border-bottom: solid crimson;
+}
+.new .texto{
+    background-color: rgba(0, 0, 0, 0.53);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.new .texto p{
+    margin-top: 100px;
+}
+.new .icons{
+    display:flex;
+}
+.new .icons div{
+    margin: 50px;
+}
+.new .ic1, .ic2, .ic3{
+    margin: 50px;
+    border-radius:200px;
+    border: 1px solid crimson;
+    padding: 23px;
+}
+.new .ic1, .ic3{
+    color:crimson;
+    border-color:white ;
+    background-color: white;
+}
+.new .h4{
+    color: crimson;
+}
+.new .p1{
+    color: crimson;
+}
+.new .ic2{
+    color: white;
+    background-color: crimson;
+}
+.new .icons .fa-solid{
+    font-size: 70px;
+}
+
+.new .end{
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    border-top:3px solid crimson;
+    border-bottom: 3px solid crimson;
+}
+
+.new .end a{
+    display: block;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-decoration: none;
+}
+.new .end a img{
+    width: 150px;
+}
+.new .end a button{
+    color:white;
+    background-color: crimson;
+    border: none;
+    width: 40%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
