@@ -10,8 +10,11 @@ const A = ({ link, nombre, icono, onClick }) => {
     onClick(link);
   };
 
+  // Agrega un atributo href con un valor válido
+  const href = `#${link}`;
+
   return (
-    <a onClick={handleClick}>
+    <a href={href} onClick={handleClick}>
       {icono} {nombre}
     </a>
   );
